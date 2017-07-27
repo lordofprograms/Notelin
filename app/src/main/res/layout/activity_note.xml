@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noteLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:textColor="@color/grey_900"
+            android:paddingLeft="@dimen/ten_dp_margin"
+            android:paddingTop="@dimen/ten_dp_margin"
+            android:paddingBottom="@dimen/five_dp_margin"
+            android:hint="@string/title"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/tvNoteDate"
+            android:layout_below="@+id/etTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey_200"
+            android:textColor="@color/grey_900"
+            android:paddingLeft="@dimen/ten_dp_margin"
+            android:paddingBottom="@dimen/ten_dp_margin"
+            android:maxLines="1" />
+
+        <EditText
+            android:id="@+id/etText"
+            android:layout_below="@+id/tvNoteDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/grey_900"
+            android:gravity="start"
+            android:hint="@string/text"
+            android:background="@null"
+            android:padding="@dimen/ten_dp_margin" />
+    </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_done"
+        android:elevation="@dimen/fab_elevation"
+        app:layout_behavior="@string/behavior"
+        app:rippleColor="@color/colorPrimaryDark"/>
+
+</android.support.design.widget.CoordinatorLayout>

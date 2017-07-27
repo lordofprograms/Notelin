@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Notelin</string>
+    <string name="note_is_deleted">Заметка удалена</string>
+    <string name="all_notes_is_deleted">Все заметки удалены</string>
+    <string name="open">Открыть</string>
+    <string name="info">Информация</string>
+    <string name="delete">Удалить</string>
+    <string name="save">Сохранить</string>
+    <string name="saved">Сохранено</string>
+    <string name="deleted">Удалено</string>
+    <string name="delete_all">Удалить все</string>
+    <string name="note_info">Информация</string>
+    <string name="sort_by">Сортировка по</string>
+    <string name="sort_by_title">Заголовку</string>
+    <string name="sort_by_date">Дате</string>
+    <string name="search">Поиск</string>
+    <string name="notes_is_empty">Нет заметок</string>
+    <string name="ok">Oк</string>
+    <string name="about_note">Информация о заметке</string>
+
+    <string name="share_note">Поделиться заметкой</string>
+
+    <string name="share_via">Поделиться с помощью</string>
+
+    <string name="all_notes">Все заметки</string>
+    <string name="edit_note">Редактирование</string>
+
+    <string name="deleting_note">Удаление заметки</string>
+    <string name="confirm_deleting_note">Вы действительно хотите удалить заметку</string>
+
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="confirm_deleting_all_notes">Вы действительно хотите удалить все заметки</string>
+
+    <string name="empty_note">Пустую заметку невозможно сохранить</string>
+
+    <string name="text">Текст</string>
+    <string name="title">Заголовок</string>
+
+    <string name="behavior">com.lordofprograms.notelin.ui.commons.FabBehavior</string>
+
+    <string-array name="main_note_context">
+        <item>Открыть</item>
+        <item>Информация</item>
+        <item>Удалить</item>
+    </string-array>
+
+</resources>
